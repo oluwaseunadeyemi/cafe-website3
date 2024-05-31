@@ -32,7 +32,7 @@
     margin-top: 5px;
 }
 .body img{
-    width: 50%;
+    width: 40%;
     padding-top: 40px;
     height: 70vh;
     padding-left: 50px;
@@ -45,7 +45,7 @@
 }
 .text{
     position: absolute;
-    left: 20%;
+    left: 15%;
     top: 90%;
     padding: 1px;
     text-align: left;
@@ -54,8 +54,8 @@
 }
 .text2{
     position: absolute;
-    right: 20%;
-    top: 80%;
+    right: 25%;
+    top: 75%;
     padding: 1px;
     text-align: left;
     font-size: 16px;
@@ -68,6 +68,7 @@
 }
 .body{
     display: flex;
+    
 }
 .body2 img{
     width: 100%;
@@ -75,8 +76,8 @@
 }
 .img5 img{
     height: 100vh;
-    width: 63%;
-    padding-left: 350px;
+    width: 70%;
+    padding-left: 200px;
     padding-top: 27px;
 }
 .img5{
@@ -94,4 +95,53 @@
 }
 .img5 p{
     font-size: 30px;
+}
+.text3{
+    position: absolute;
+    right: 20%;
+    top: 135%;
+    padding: 1px;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+}
+.text3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+.text4{
+    position: absolute;
+    right: 18%;
+    top: 210%;
+    padding: 1px;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+
+}
+.text4 a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+.text2 a:hover{
+    color: black;
+}
+.text3 a:hover{
+    color: black;
+}
+.text4 a:hover{
+    color: black;
+}
+.img5 a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+.img5 a:hover{
+    background-color: black; 
+    color: #f6b46b;  
 }
